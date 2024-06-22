@@ -23,7 +23,7 @@
         <tbody>
         {% for row in site.data.1804317729522155646 %}
           <tr>
-            {% assign posi = row.posi | plus: 0 %}
+            {% assign posi = row.posi | divided_by: 1.0 %}
             <td>{{ posi }}</td>
             <td>{{ row.char }}</td>
             <td>{{ row.color }}</td>
