@@ -1,0 +1,8 @@
+layout: default
+lang: ja_JP
+
+defaults:
+  - scope:
+      path: "1804317729522155646.md"
+    values:
+      layout: "1804317729522155646"
