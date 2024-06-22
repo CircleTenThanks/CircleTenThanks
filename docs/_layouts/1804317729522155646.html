@@ -13,7 +13,6 @@
       <table>
         <thead>
           <tr>
-            <th scope="col">posi</th>
             <th scope="col">char</th>
             <th scope="col">color</th>
             <th scope="col">gen</th>
@@ -23,8 +22,6 @@
         <tbody>
         {% for row in site.data.1804317729522155646 %}
           <tr>
-            {% assign posi = row.posi | divided_by: 1.0 %}
-            <td>{{ posi }}</td>
             <td>{{ row.char }}</td>
             <td>{{ row.color }}</td>
             <td>{{ row.gen }}</td>
