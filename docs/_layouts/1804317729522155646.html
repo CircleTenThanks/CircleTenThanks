@@ -24,7 +24,7 @@
         {% for row in site.data.1804317729522155646 %}
           <tr>
             <td>{{ row.str }}</td>
-            <td><font color="{{ row.color }}">{{ row.color }}<font></td>
+            <td><span style="background: linear-gradient(transparent 70%, {{ row.color }} 0%);">{{ row.color }}</span></td>
             <td>{{ row.gen }}</td>
             <td>{{ row.member }}</td>
             <td>{{ row.description }}</td>
