@@ -14,7 +14,6 @@
         <thead>
           <tr>
             <th scope="col">str</th>
-            <th scope="col">color</th>
             <th scope="col">gen</th>
             <th scope="col">member</th>
             <th scope="col">description</th>
@@ -23,8 +22,7 @@
         <tbody>
         {% for row in site.data.1804317729522155646 %}
           <tr>
-            <td>{{ row.str }}</td>
-            <td><span style="background: linear-gradient(transparent 70%, {{ row.color }} 0%);">{{ row.color }}</span></td>
+            <td><span style="background: linear-gradient(transparent 70%, {{ row.color }} 0%);">{{ row.str }}</span></td>
             <td>{{ row.gen }}</td>
             <td>{{ row.member }}</td>
             <td>{{ row.description }}</td>
